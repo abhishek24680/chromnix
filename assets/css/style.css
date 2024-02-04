@@ -2432,3 +2432,22 @@ section {
 .InfoPages {
   width: 100% !important;
 }
+
+.services-card__tags li {
+  background-color: #0e0c0c;
+  border: 1px solid #1f4a5e;
+  border-radius: 13px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #fff;
+  padding: 3px 11px;
+}
+.services-card__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+ul {
+  list-style: none;
+}
